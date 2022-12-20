@@ -97,7 +97,7 @@ class LocationActivity : AppCompatActivity(),LocationInterface {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         when (requestCode) {
             MY_PERMISSIONS_REQUEST_LOCATION -> {
-                if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                if (grantResults.isNotEmpty() && grantResults[1] == PackageManager.PERMISSION_GRANTED) {
 
                     if (ContextCompat.checkSelfPermission(
                             this,
@@ -105,6 +105,8 @@ class LocationActivity : AppCompatActivity(),LocationInterface {
                         ) == PackageManager.PERMISSION_GRANTED
                     ) {
                         Utils.displayLocationSettingsRequest(this, this)
+                    }else{
+                        requestLocationPermission()
                     }
 
                 } else if (!shouldShowRequestPermissionRationale(permissions[0])) {
