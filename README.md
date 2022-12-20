@@ -8,4 +8,5 @@ I have tested with multiple scenarios , here is the scenario list
 2. If permission given and location not enabled
 3. If permission deny two times (According to the rule changes from  Android 11)
 4. If permission denied
+5. Programmatically Enabled Location Permission
 
