@@ -10,3 +10,6 @@ I have tested with multiple scenarios , here is the scenario list
 4. If permission denied
 5. Programmatically Enabled Location Permission
 
+
+[]https://github.com/ParthLotia/LocationPermission/tree/master/screenshots/ss_location1.png
+
