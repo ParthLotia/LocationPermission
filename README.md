@@ -13,5 +13,8 @@ I have tested with multiple scenarios , here is the scenario list
 
 <!--![LocationPermission](art/ss_location1.png)-->
 
-![Screenshot](https://github.com/ParthLotia/LocationPermission/tree/master/art/ss_location1.png = 250x250)
+<p align="center">
+  <img src="art/ss_location1.png" width="350">
+  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+</p>
 
