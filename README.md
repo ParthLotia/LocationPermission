@@ -13,5 +13,5 @@ I have tested with multiple scenarios , here is the scenario list
 
 <!--![LocationPermission](art/ss_location1.png)-->
 
-![](https://github.com/ParthLotia/LocationPermission/tree/master/art/ss_location1.png = 250x250)
+![Screenshot](https://github.com/ParthLotia/LocationPermission/tree/master/art/ss_location1.png = 250x250)
 
