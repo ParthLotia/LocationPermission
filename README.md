@@ -15,6 +15,7 @@ I have tested with multiple scenarios , here is the scenario list
 
 <p align="center">
   <img src="art/ss_location1.png" width="350">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+  <img src="art/ss_location2.png" width="350">
+  <img src="art/ss_location3.png" width="350">
 </p>
 
