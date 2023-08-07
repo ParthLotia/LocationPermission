@@ -65,7 +65,12 @@ class LocationActivity : AppCompatActivity(),LocationInterface {
                         "OK"
                     ) { _, _ ->
 
-                        requestLocationPermission()
+                        startActivity(
+                            Intent(
+                                Settings.ACTION_APPLICATION_DETAILS_SETTINGS,
+                                Uri.fromParts("package", this.packageName, null),
+                            ),
+                        )
                     }
                     .create()
                     .show()
@@ -106,7 +111,7 @@ class LocationActivity : AppCompatActivity(),LocationInterface {
                     ) {
                         Utils.displayLocationSettingsRequest(this, this)
                     }else{
-                        requestLocationPermission()
+                        checkLocationPermission()
                     }
 
                 } else if (!shouldShowRequestPermissionRationale(permissions[0])) {
